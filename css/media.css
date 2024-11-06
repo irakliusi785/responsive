@@ -1,0 +1,19 @@
+@media (max-width: 375px){
+    ul, .nav-register {
+        display: none;
+    }
+    .main-div {
+        max-width: 375px;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 110px;  
+        margin: 0 auto; 
+}
+    h1 {
+        font-size: 30px;
+        margin-left: 24px;
+    }
+    .left-div3{
+        margin-left: 24px;
+    }
+}
