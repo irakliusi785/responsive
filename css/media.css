@@ -3,17 +3,43 @@
         display: none;
     }
     .main-div {
-        max-width: 375px;
-        width: 100%;
         flex-direction: column;
-        margin-top: 110px;  
-        margin: 0 auto; 
-}
+        align-items: center;
+        justify-content: center;
+    }
     h1 {
         font-size: 30px;
-        margin-left: 24px;
+        width: 240px;
     }
-    .left-div3{
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 26px;
+        align-items: center;
+    }
+    .fa-solid{
+        display: block;
+        font-size: 26px;
+        color: #FF8345;
+    }
+    .mobile{
+        margin-top: 80px;
+        display: block;
+        display: flex;
+    }
+    .mobile-left > img {
+        width: 163px;
+        height: 27px;
         margin-left: 24px;
+        margin-bottom: 30px;
+    }
+    .mobile-right > img {
+        width: 163px;
+        height: 27px;
+        margin-left: 24px;
+        margin-bottom: 30px;
+    }
+    .mobile-left, .mobile-right {
+        flex-direction: column;
     }
 }
